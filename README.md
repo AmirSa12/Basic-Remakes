@@ -1,2 +1,1 @@
-# Basic-Remake
-My very first remake.
+# Basic-Remakes
