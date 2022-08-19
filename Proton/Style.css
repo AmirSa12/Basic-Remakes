@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./PNG/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'system-ui',sans-serif;
+    font-style: normal;
+}
+
+a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo{
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    max-width: 30rem;
+    height: fit-content;
+    background-color: white;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px 44px;
+}
+
+
+.sign-in-header{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sign-in-header h4{
+    color: #706D6B;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.the-inputs-only{
+    margin-top: 20px;
+    width: 100%;
+    /* border: red solid 1px; */
+}
+
+.the-inputs-only h4{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0C0C14;
+    width: 100%;
+}
+
+.inputs{
+    padding-left: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 2.75rem;
+    border-radius: 8px;
+    border: 1px #adaba8 solid;
+    outline-color: rgb(109, 74, 255, 0.5);
+    outline-width: 2px;
+}
+
+.inputs:focus{
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.check-box-section{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.check-box-info{
+    margin-left: 10px;
+    font-weight: 100;
+    color: #706D6B;
+}
+
+.check-box-info h4{
+    font-weight: 400;
+    color: #0C0C14;
+    /* background-image: url("./SVG/info.svg");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position-x: 8.6rem;
+    background-position-y: 4px; */
+}
+
+.keep-me-signed{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.info-svg{
+    position: absolute;
+    top: 4px;
+    left: 137px;
+    width: 15px;
+}
+
+.info-svg:hover{
+    cursor: pointer;
+}
+
+.bor{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px red solid; */
+    margin-top: 1px;
+}
+.the-check-box{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.btns-section{
+    width: 100%;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color: #6D4AFF;
+    height: 45px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.btns:hover{
+    background-color: #592fff;
+}
+
+.btn-2{
+    background-color: transparent;
+    border: 1px solid #6D4AFF;
+    color: #6D4AFF;
+}
+
+.btn-2:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.trouble-section{
+    margin: auto;
+    color: #6D4AFF;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.svg-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* border: 1px red solid; */
+    width: fit-content;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.mail-svg{
+    width: 80px;
+}
+
+.folder-svg{
+    width: 80px;
+}
+
+.vpn-svg{
+    width: 80px;
+}
+
+.footer-section{
+    margin: auto;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+.footer-section h4{
+    font-weight: 400;
+}
+
+.made-with{
+    margin-top: 10px;
+    letter-spacing: 0.1em;
+}
+
+.made-with a{
+    text-decoration: none;
+    color: #592fff;
+    font-weight: 700;
+}
+
+.footer-logo{
+    width: 80px;
+    margin-top: 10px;
+    filter: drop-shadow(0 0 0.75rem #592fff);
+}
+
+.made-with .sarhang{
+    color: #7f2fff;
+}
+
+
+.footer-section .copy-right{
+    margin-bottom: 5px;
+}
